@@ -20,6 +20,17 @@ a {
     width: 100%;
     z-index: 999;
 }
+
+.navigationbar {
+    box-sizing: border-box;
+    background-color: #29677E;
+    overflow: auto;
+    padding: 18px 50px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
   
 ul {
     padding: 0;
@@ -40,4 +51,15 @@ li {
   
 .active {
     color: #88CCF1;
+}
+
+h1 {
+    color: #FFF;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 18px 10px 18px;
+    text-transform: uppercase;
 }
